@@ -2,10 +2,13 @@
   "required": true,
   "package": "grondag.frex.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
+  "client": [
     "MixinChunkBuilder",
     "MixinChunkRendererRegion",
-  	"MixinWorldRendererOldEvents"
+    "MixinMultipartBakedModel",
+    "MixinWeightedBakedModel",
+  	"MixinWorldRendererOldEvents",
+    "WeightedBakedModelEntryAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
